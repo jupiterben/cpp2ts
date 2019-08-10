@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        //"paths": { "*": ["types/*"] },
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "noUnusedParameters": false,
+        "noUnusedLocals": false,
+        "noImplicitAny": false,
+        "strictFunctionTypes": false,
+        "target": "esnext",
+        "lib": [
+            "dom",
+            "es7",
+            "es5",
+            "esnext",
+            "es2017"
+        ],
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin"
+            }
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "public",
+        "dist"
+    ]
+}

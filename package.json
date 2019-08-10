@@ -1,0 +1,35 @@
+{
+  "name": "cpp2ts",
+  "version": "1.0.0",
+  "description": "convert cpp project to typescript",
+  "main": "index.js",
+  "scripts": {
+    "antlr4ts": "cd src/antlr && antlr4ts -visitor CPP14.g4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupiterben/cpp2ts.git"
+  },
+  "author": "fub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jupiterben/cpp2ts/issues"
+  },
+  "homepage": "https://github.com/jupiterben/cpp2ts#readme",
+  "dependencies": {
+    "collections": "^5.1.9",
+    "svgjs": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.7",
+    "antlr4ts": "^0.5.0-alpha.3",
+    "antlr4ts-cli": "^0.5.0-alpha.3",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}
